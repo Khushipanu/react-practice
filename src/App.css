@@ -1,4 +1,4 @@
-div #main{
+/* div #main{
   display:flex;
   gap:20px;
   flex-direction:column;
@@ -34,4 +34,32 @@ button:active{
 #inside img{
   height:250px;
   width:450px;
+} */
+ .main{
+  background-color: rgb(123, 177, 123);
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:10px;
+  color:#ffff;
+
+ }
+ div #right{
+  text-decoration:none;
+  display:flex;
+  gap:20px;
+  color:#ffff;
+ }
+ div #right a{
+  text-decoration:none;
+  color:white;
+ }
+h1{
+  position: absolute;
+  font-size: 70px;
+  font-weight: 600;   /* fixed */
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+
 }
